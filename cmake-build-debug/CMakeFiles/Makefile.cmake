@@ -7,15 +7,18 @@ set(CMAKE_DEPENDS_GENERATOR "MinGW Makefiles")
 # The top level Makefile was generated from the following files:
 set(CMAKE_MAKEFILE_DEPENDS
   "CMakeCache.txt"
+  "C:/Program Files/JetBrains/CLion 2019.3.4/bin/cmake/win/share/cmake-3.15/Modules/BasicConfigVersion-AnyNewerVersion.cmake.in"
   "C:/Program Files/JetBrains/CLion 2019.3.4/bin/cmake/win/share/cmake-3.15/Modules/CMakeCInformation.cmake"
   "C:/Program Files/JetBrains/CLion 2019.3.4/bin/cmake/win/share/cmake-3.15/Modules/CMakeCXXInformation.cmake"
   "C:/Program Files/JetBrains/CLion 2019.3.4/bin/cmake/win/share/cmake-3.15/Modules/CMakeCheckCompilerFlagCommonPatterns.cmake"
   "C:/Program Files/JetBrains/CLion 2019.3.4/bin/cmake/win/share/cmake-3.15/Modules/CMakeCommonLanguageInclude.cmake"
+  "C:/Program Files/JetBrains/CLion 2019.3.4/bin/cmake/win/share/cmake-3.15/Modules/CMakeDependentOption.cmake"
   "C:/Program Files/JetBrains/CLion 2019.3.4/bin/cmake/win/share/cmake-3.15/Modules/CMakeExtraGeneratorDetermineCompilerMacrosAndIncludeDirs.cmake"
   "C:/Program Files/JetBrains/CLion 2019.3.4/bin/cmake/win/share/cmake-3.15/Modules/CMakeFindCodeBlocks.cmake"
   "C:/Program Files/JetBrains/CLion 2019.3.4/bin/cmake/win/share/cmake-3.15/Modules/CMakeGenericSystem.cmake"
   "C:/Program Files/JetBrains/CLion 2019.3.4/bin/cmake/win/share/cmake-3.15/Modules/CMakeInitializeConfigs.cmake"
   "C:/Program Files/JetBrains/CLion 2019.3.4/bin/cmake/win/share/cmake-3.15/Modules/CMakeLanguageInformation.cmake"
+  "C:/Program Files/JetBrains/CLion 2019.3.4/bin/cmake/win/share/cmake-3.15/Modules/CMakePackageConfigHelpers.cmake"
   "C:/Program Files/JetBrains/CLion 2019.3.4/bin/cmake/win/share/cmake-3.15/Modules/CMakeRCInformation.cmake"
   "C:/Program Files/JetBrains/CLion 2019.3.4/bin/cmake/win/share/cmake-3.15/Modules/CMakeSystemSpecificInformation.cmake"
   "C:/Program Files/JetBrains/CLion 2019.3.4/bin/cmake/win/share/cmake-3.15/Modules/CMakeSystemSpecificInitialize.cmake"
@@ -23,6 +26,10 @@ set(CMAKE_MAKEFILE_DEPENDS
   "C:/Program Files/JetBrains/CLion 2019.3.4/bin/cmake/win/share/cmake-3.15/Modules/Compiler/GNU-C.cmake"
   "C:/Program Files/JetBrains/CLion 2019.3.4/bin/cmake/win/share/cmake-3.15/Modules/Compiler/GNU-CXX.cmake"
   "C:/Program Files/JetBrains/CLion 2019.3.4/bin/cmake/win/share/cmake-3.15/Modules/Compiler/GNU.cmake"
+  "C:/Program Files/JetBrains/CLion 2019.3.4/bin/cmake/win/share/cmake-3.15/Modules/FindPackageHandleStandardArgs.cmake"
+  "C:/Program Files/JetBrains/CLion 2019.3.4/bin/cmake/win/share/cmake-3.15/Modules/FindPackageMessage.cmake"
+  "C:/Program Files/JetBrains/CLion 2019.3.4/bin/cmake/win/share/cmake-3.15/Modules/FindPythonInterp.cmake"
+  "C:/Program Files/JetBrains/CLion 2019.3.4/bin/cmake/win/share/cmake-3.15/Modules/GNUInstallDirs.cmake"
   "C:/Program Files/JetBrains/CLion 2019.3.4/bin/cmake/win/share/cmake-3.15/Modules/Internal/CMakeCheckCompilerFlag.cmake"
   "C:/Program Files/JetBrains/CLion 2019.3.4/bin/cmake/win/share/cmake-3.15/Modules/Platform/Windows-GNU-C-ABI.cmake"
   "C:/Program Files/JetBrains/CLion 2019.3.4/bin/cmake/win/share/cmake-3.15/Modules/Platform/Windows-GNU-C.cmake"
@@ -33,11 +40,22 @@ set(CMAKE_MAKEFILE_DEPENDS
   "C:/Program Files/JetBrains/CLion 2019.3.4/bin/cmake/win/share/cmake-3.15/Modules/Platform/Windows.cmake"
   "C:/Program Files/JetBrains/CLion 2019.3.4/bin/cmake/win/share/cmake-3.15/Modules/Platform/WindowsPaths.cmake"
   "C:/Program Files/JetBrains/CLion 2019.3.4/bin/cmake/win/share/cmake-3.15/Modules/ProcessorCount.cmake"
+  "C:/Program Files/JetBrains/CLion 2019.3.4/bin/cmake/win/share/cmake-3.15/Modules/WriteBasicConfigVersionFile.cmake"
   "../CMakeLists.txt"
   "CMakeFiles/3.15.3/CMakeCCompiler.cmake"
   "CMakeFiles/3.15.3/CMakeCXXCompiler.cmake"
   "CMakeFiles/3.15.3/CMakeRCCompiler.cmake"
   "CMakeFiles/3.15.3/CMakeSystem.cmake"
+  "../test/CMakeLists.txt"
+  "../test/lib/googletest-master/CMakeLists.txt"
+  "../test/lib/googletest-master/googlemock/CMakeLists.txt"
+  "../test/lib/googletest-master/googlemock/cmake/gmock.pc.in"
+  "../test/lib/googletest-master/googlemock/cmake/gmock_main.pc.in"
+  "../test/lib/googletest-master/googletest/CMakeLists.txt"
+  "../test/lib/googletest-master/googletest/cmake/Config.cmake.in"
+  "../test/lib/googletest-master/googletest/cmake/gtest.pc.in"
+  "../test/lib/googletest-master/googletest/cmake/gtest_main.pc.in"
+  "../test/lib/googletest-master/googletest/cmake/internal_utils.cmake"
   )
 
 # The corresponding makefile is:
@@ -49,9 +67,19 @@ set(CMAKE_MAKEFILE_OUTPUTS
 # Byproducts of CMake generate step:
 set(CMAKE_MAKEFILE_PRODUCTS
   "CMakeFiles/CMakeDirectoryInformation.cmake"
+  "test/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "test/lib/googletest-master/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "test/lib/googletest-master/googlemock/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "test/lib/googletest-master/googletest/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/UsersChat.dir/DependInfo.cmake"
+  "CMakeFiles/core.dir/DependInfo.cmake"
+  "test/CMakeFiles/runUsersChatTests.dir/DependInfo.cmake"
+  "test/lib/googletest-master/googlemock/CMakeFiles/gmock_main.dir/DependInfo.cmake"
+  "test/lib/googletest-master/googlemock/CMakeFiles/gmock.dir/DependInfo.cmake"
+  "test/lib/googletest-master/googletest/CMakeFiles/gtest.dir/DependInfo.cmake"
+  "test/lib/googletest-master/googletest/CMakeFiles/gtest_main.dir/DependInfo.cmake"
   )

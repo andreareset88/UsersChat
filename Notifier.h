@@ -38,6 +38,14 @@ public:
         cout<<buffer<<endl;
     }
 
+    bool isOnline() const {
+        return online;
+    }
+
+    void setOnline(bool online) {
+        Notifier::online = online;
+    }
+
 
 private:
     Chat* subject;

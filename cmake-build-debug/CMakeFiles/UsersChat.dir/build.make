@@ -78,6 +78,7 @@ UsersChat_EXTERNAL_OBJECTS =
 
 UsersChat.exe: CMakeFiles/UsersChat.dir/main.cpp.obj
 UsersChat.exe: CMakeFiles/UsersChat.dir/build.make
+UsersChat.exe: libcore.a
 UsersChat.exe: CMakeFiles/UsersChat.dir/linklibs.rsp
 UsersChat.exe: CMakeFiles/UsersChat.dir/objects1.rsp
 UsersChat.exe: CMakeFiles/UsersChat.dir/link.txt

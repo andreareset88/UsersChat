@@ -56,75 +56,30 @@ include CMakeFiles/core.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/core.dir/flags.make
 
-CMakeFiles/core.dir/test/runAllTests.cpp.obj: CMakeFiles/core.dir/flags.make
-CMakeFiles/core.dir/test/runAllTests.cpp.obj: ../test/runAllTests.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\acer\Downloads\UsersChat_1\UsersChat~1\UsersChat\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/core.dir/test/runAllTests.cpp.obj"
-	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\core.dir\test\runAllTests.cpp.obj -c C:\Users\acer\Downloads\UsersChat_1\UsersChat~1\UsersChat\test\runAllTests.cpp
+CMakeFiles/core.dir/main.cpp.obj: CMakeFiles/core.dir/flags.make
+CMakeFiles/core.dir/main.cpp.obj: ../main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\acer\Downloads\UsersChat_1\UsersChat~1\UsersChat\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/core.dir/main.cpp.obj"
+	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\core.dir\main.cpp.obj -c C:\Users\acer\Downloads\UsersChat_1\UsersChat~1\UsersChat\main.cpp
 
-CMakeFiles/core.dir/test/runAllTests.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/core.dir/test/runAllTests.cpp.i"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\acer\Downloads\UsersChat_1\UsersChat~1\UsersChat\test\runAllTests.cpp > CMakeFiles\core.dir\test\runAllTests.cpp.i
+CMakeFiles/core.dir/main.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/core.dir/main.cpp.i"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\acer\Downloads\UsersChat_1\UsersChat~1\UsersChat\main.cpp > CMakeFiles\core.dir\main.cpp.i
 
-CMakeFiles/core.dir/test/runAllTests.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/core.dir/test/runAllTests.cpp.s"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\acer\Downloads\UsersChat_1\UsersChat~1\UsersChat\test\runAllTests.cpp -o CMakeFiles\core.dir\test\runAllTests.cpp.s
-
-CMakeFiles/core.dir/test/TestChat.cpp.obj: CMakeFiles/core.dir/flags.make
-CMakeFiles/core.dir/test/TestChat.cpp.obj: ../test/TestChat.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\acer\Downloads\UsersChat_1\UsersChat~1\UsersChat\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/core.dir/test/TestChat.cpp.obj"
-	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\core.dir\test\TestChat.cpp.obj -c C:\Users\acer\Downloads\UsersChat_1\UsersChat~1\UsersChat\test\TestChat.cpp
-
-CMakeFiles/core.dir/test/TestChat.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/core.dir/test/TestChat.cpp.i"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\acer\Downloads\UsersChat_1\UsersChat~1\UsersChat\test\TestChat.cpp > CMakeFiles\core.dir\test\TestChat.cpp.i
-
-CMakeFiles/core.dir/test/TestChat.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/core.dir/test/TestChat.cpp.s"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\acer\Downloads\UsersChat_1\UsersChat~1\UsersChat\test\TestChat.cpp -o CMakeFiles\core.dir\test\TestChat.cpp.s
-
-CMakeFiles/core.dir/test/TestMessage.cpp.obj: CMakeFiles/core.dir/flags.make
-CMakeFiles/core.dir/test/TestMessage.cpp.obj: ../test/TestMessage.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\acer\Downloads\UsersChat_1\UsersChat~1\UsersChat\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/core.dir/test/TestMessage.cpp.obj"
-	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\core.dir\test\TestMessage.cpp.obj -c C:\Users\acer\Downloads\UsersChat_1\UsersChat~1\UsersChat\test\TestMessage.cpp
-
-CMakeFiles/core.dir/test/TestMessage.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/core.dir/test/TestMessage.cpp.i"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\acer\Downloads\UsersChat_1\UsersChat~1\UsersChat\test\TestMessage.cpp > CMakeFiles\core.dir\test\TestMessage.cpp.i
-
-CMakeFiles/core.dir/test/TestMessage.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/core.dir/test/TestMessage.cpp.s"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\acer\Downloads\UsersChat_1\UsersChat~1\UsersChat\test\TestMessage.cpp -o CMakeFiles\core.dir\test\TestMessage.cpp.s
-
-CMakeFiles/core.dir/test/TestNotifier.cpp.obj: CMakeFiles/core.dir/flags.make
-CMakeFiles/core.dir/test/TestNotifier.cpp.obj: ../test/TestNotifier.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\acer\Downloads\UsersChat_1\UsersChat~1\UsersChat\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/core.dir/test/TestNotifier.cpp.obj"
-	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\core.dir\test\TestNotifier.cpp.obj -c C:\Users\acer\Downloads\UsersChat_1\UsersChat~1\UsersChat\test\TestNotifier.cpp
-
-CMakeFiles/core.dir/test/TestNotifier.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/core.dir/test/TestNotifier.cpp.i"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\acer\Downloads\UsersChat_1\UsersChat~1\UsersChat\test\TestNotifier.cpp > CMakeFiles\core.dir\test\TestNotifier.cpp.i
-
-CMakeFiles/core.dir/test/TestNotifier.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/core.dir/test/TestNotifier.cpp.s"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\acer\Downloads\UsersChat_1\UsersChat~1\UsersChat\test\TestNotifier.cpp -o CMakeFiles\core.dir\test\TestNotifier.cpp.s
+CMakeFiles/core.dir/main.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/core.dir/main.cpp.s"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\acer\Downloads\UsersChat_1\UsersChat~1\UsersChat\main.cpp -o CMakeFiles\core.dir\main.cpp.s
 
 # Object files for target core
 core_OBJECTS = \
-"CMakeFiles/core.dir/test/runAllTests.cpp.obj" \
-"CMakeFiles/core.dir/test/TestChat.cpp.obj" \
-"CMakeFiles/core.dir/test/TestMessage.cpp.obj" \
-"CMakeFiles/core.dir/test/TestNotifier.cpp.obj"
+"CMakeFiles/core.dir/main.cpp.obj"
 
 # External object files for target core
 core_EXTERNAL_OBJECTS =
 
-libcore.a: CMakeFiles/core.dir/test/runAllTests.cpp.obj
-libcore.a: CMakeFiles/core.dir/test/TestChat.cpp.obj
-libcore.a: CMakeFiles/core.dir/test/TestMessage.cpp.obj
-libcore.a: CMakeFiles/core.dir/test/TestNotifier.cpp.obj
+libcore.a: CMakeFiles/core.dir/main.cpp.obj
 libcore.a: CMakeFiles/core.dir/build.make
 libcore.a: CMakeFiles/core.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\acer\Downloads\UsersChat_1\UsersChat~1\UsersChat\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX static library libcore.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\acer\Downloads\UsersChat_1\UsersChat~1\UsersChat\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library libcore.a"
 	$(CMAKE_COMMAND) -P CMakeFiles\core.dir\cmake_clean_target.cmake
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\core.dir\link.txt --verbose=$(VERBOSE)
 

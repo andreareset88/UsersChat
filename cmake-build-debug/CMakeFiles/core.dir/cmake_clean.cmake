@@ -1,8 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/core.dir/test/TestChat.cpp.obj"
-  "CMakeFiles/core.dir/test/TestMessage.cpp.obj"
-  "CMakeFiles/core.dir/test/TestNotifier.cpp.obj"
-  "CMakeFiles/core.dir/test/runAllTests.cpp.obj"
+  "CMakeFiles/core.dir/main.cpp.obj"
   "libcore.a"
   "libcore.pdb"
 )

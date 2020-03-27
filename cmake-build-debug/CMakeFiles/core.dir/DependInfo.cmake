@@ -4,10 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "C:/Users/acer/Downloads/UsersChat_1/UsersChat~1/UsersChat/test/TestChat.cpp" "C:/Users/acer/Downloads/UsersChat_1/UsersChat~1/UsersChat/cmake-build-debug/CMakeFiles/core.dir/test/TestChat.cpp.obj"
-  "C:/Users/acer/Downloads/UsersChat_1/UsersChat~1/UsersChat/test/TestMessage.cpp" "C:/Users/acer/Downloads/UsersChat_1/UsersChat~1/UsersChat/cmake-build-debug/CMakeFiles/core.dir/test/TestMessage.cpp.obj"
-  "C:/Users/acer/Downloads/UsersChat_1/UsersChat~1/UsersChat/test/TestNotifier.cpp" "C:/Users/acer/Downloads/UsersChat_1/UsersChat~1/UsersChat/cmake-build-debug/CMakeFiles/core.dir/test/TestNotifier.cpp.obj"
-  "C:/Users/acer/Downloads/UsersChat_1/UsersChat~1/UsersChat/test/runAllTests.cpp" "C:/Users/acer/Downloads/UsersChat_1/UsersChat~1/UsersChat/cmake-build-debug/CMakeFiles/core.dir/test/runAllTests.cpp.obj"
+  "C:/Users/acer/Downloads/UsersChat_1/UsersChat~1/UsersChat/main.cpp" "C:/Users/acer/Downloads/UsersChat_1/UsersChat~1/UsersChat/cmake-build-debug/CMakeFiles/core.dir/main.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

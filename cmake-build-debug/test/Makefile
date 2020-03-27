@@ -55,15 +55,17 @@ CMAKE_BINARY_DIR = C:\Users\acer\Downloads\UsersChat_1\UsersChat~1\UsersChat\cma
 #=============================================================================
 # Targets provided globally by CMake.
 
-# Special rule for the target list_install_components
-list_install_components:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Available install components are: \"Unspecified\""
-.PHONY : list_install_components
+# Special rule for the target install/strip
+install/strip: preinstall
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing the project stripped..."
+	"C:\Program Files\JetBrains\CLion 2019.3.4\bin\cmake\win\bin\cmake.exe" -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
+.PHONY : install/strip
 
-# Special rule for the target list_install_components
-list_install_components/fast: list_install_components
-
-.PHONY : list_install_components/fast
+# Special rule for the target install/strip
+install/strip/fast: preinstall/fast
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing the project stripped..."
+	"C:\Program Files\JetBrains\CLion 2019.3.4\bin\cmake\win\bin\cmake.exe" -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
+.PHONY : install/strip/fast
 
 # Special rule for the target install/local
 install/local: preinstall
@@ -111,17 +113,15 @@ rebuild_cache/fast: rebuild_cache
 
 .PHONY : rebuild_cache/fast
 
-# Special rule for the target install/strip
-install/strip: preinstall
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing the project stripped..."
-	"C:\Program Files\JetBrains\CLion 2019.3.4\bin\cmake\win\bin\cmake.exe" -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
-.PHONY : install/strip
+# Special rule for the target list_install_components
+list_install_components:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Available install components are: \"Unspecified\""
+.PHONY : list_install_components
 
-# Special rule for the target install/strip
-install/strip/fast: preinstall/fast
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing the project stripped..."
-	"C:\Program Files\JetBrains\CLion 2019.3.4\bin\cmake\win\bin\cmake.exe" -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
-.PHONY : install/strip/fast
+# Special rule for the target list_install_components
+list_install_components/fast: list_install_components
+
+.PHONY : list_install_components/fast
 
 # The main all target
 all: cmake_check_build_system
@@ -156,19 +156,19 @@ depend:
 .PHONY : depend
 
 # Convenience name for target.
-test/CMakeFiles/runAllTests.dir/rule:
-	cd /d C:\Users\acer\Downloads\UsersChat_1\UsersChat~1\UsersChat\cmake-build-debug && $(MAKE) -f CMakeFiles\Makefile2 test/CMakeFiles/runAllTests.dir/rule
-.PHONY : test/CMakeFiles/runAllTests.dir/rule
+test/CMakeFiles/runUsersChatTests.dir/rule:
+	cd /d C:\Users\acer\Downloads\UsersChat_1\UsersChat~1\UsersChat\cmake-build-debug && $(MAKE) -f CMakeFiles\Makefile2 test/CMakeFiles/runUsersChatTests.dir/rule
+.PHONY : test/CMakeFiles/runUsersChatTests.dir/rule
 
 # Convenience name for target.
-runAllTests: test/CMakeFiles/runAllTests.dir/rule
+runUsersChatTests: test/CMakeFiles/runUsersChatTests.dir/rule
 
-.PHONY : runAllTests
+.PHONY : runUsersChatTests
 
 # fast build rule for target.
-runAllTests/fast:
-	cd /d C:\Users\acer\Downloads\UsersChat_1\UsersChat~1\UsersChat\cmake-build-debug && $(MAKE) -f test\CMakeFiles\runAllTests.dir\build.make test/CMakeFiles/runAllTests.dir/build
-.PHONY : runAllTests/fast
+runUsersChatTests/fast:
+	cd /d C:\Users\acer\Downloads\UsersChat_1\UsersChat~1\UsersChat\cmake-build-debug && $(MAKE) -f test\CMakeFiles\runUsersChatTests.dir\build.make test/CMakeFiles/runUsersChatTests.dir/build
+.PHONY : runUsersChatTests/fast
 
 TestChat.obj: TestChat.cpp.obj
 
@@ -176,7 +176,7 @@ TestChat.obj: TestChat.cpp.obj
 
 # target to build an object file
 TestChat.cpp.obj:
-	cd /d C:\Users\acer\Downloads\UsersChat_1\UsersChat~1\UsersChat\cmake-build-debug && $(MAKE) -f test\CMakeFiles\runAllTests.dir\build.make test/CMakeFiles/runAllTests.dir/TestChat.cpp.obj
+	cd /d C:\Users\acer\Downloads\UsersChat_1\UsersChat~1\UsersChat\cmake-build-debug && $(MAKE) -f test\CMakeFiles\runUsersChatTests.dir\build.make test/CMakeFiles/runUsersChatTests.dir/TestChat.cpp.obj
 .PHONY : TestChat.cpp.obj
 
 TestChat.i: TestChat.cpp.i
@@ -185,7 +185,7 @@ TestChat.i: TestChat.cpp.i
 
 # target to preprocess a source file
 TestChat.cpp.i:
-	cd /d C:\Users\acer\Downloads\UsersChat_1\UsersChat~1\UsersChat\cmake-build-debug && $(MAKE) -f test\CMakeFiles\runAllTests.dir\build.make test/CMakeFiles/runAllTests.dir/TestChat.cpp.i
+	cd /d C:\Users\acer\Downloads\UsersChat_1\UsersChat~1\UsersChat\cmake-build-debug && $(MAKE) -f test\CMakeFiles\runUsersChatTests.dir\build.make test/CMakeFiles/runUsersChatTests.dir/TestChat.cpp.i
 .PHONY : TestChat.cpp.i
 
 TestChat.s: TestChat.cpp.s
@@ -194,7 +194,7 @@ TestChat.s: TestChat.cpp.s
 
 # target to generate assembly for a file
 TestChat.cpp.s:
-	cd /d C:\Users\acer\Downloads\UsersChat_1\UsersChat~1\UsersChat\cmake-build-debug && $(MAKE) -f test\CMakeFiles\runAllTests.dir\build.make test/CMakeFiles/runAllTests.dir/TestChat.cpp.s
+	cd /d C:\Users\acer\Downloads\UsersChat_1\UsersChat~1\UsersChat\cmake-build-debug && $(MAKE) -f test\CMakeFiles\runUsersChatTests.dir\build.make test/CMakeFiles/runUsersChatTests.dir/TestChat.cpp.s
 .PHONY : TestChat.cpp.s
 
 TestMessage.obj: TestMessage.cpp.obj
@@ -203,7 +203,7 @@ TestMessage.obj: TestMessage.cpp.obj
 
 # target to build an object file
 TestMessage.cpp.obj:
-	cd /d C:\Users\acer\Downloads\UsersChat_1\UsersChat~1\UsersChat\cmake-build-debug && $(MAKE) -f test\CMakeFiles\runAllTests.dir\build.make test/CMakeFiles/runAllTests.dir/TestMessage.cpp.obj
+	cd /d C:\Users\acer\Downloads\UsersChat_1\UsersChat~1\UsersChat\cmake-build-debug && $(MAKE) -f test\CMakeFiles\runUsersChatTests.dir\build.make test/CMakeFiles/runUsersChatTests.dir/TestMessage.cpp.obj
 .PHONY : TestMessage.cpp.obj
 
 TestMessage.i: TestMessage.cpp.i
@@ -212,7 +212,7 @@ TestMessage.i: TestMessage.cpp.i
 
 # target to preprocess a source file
 TestMessage.cpp.i:
-	cd /d C:\Users\acer\Downloads\UsersChat_1\UsersChat~1\UsersChat\cmake-build-debug && $(MAKE) -f test\CMakeFiles\runAllTests.dir\build.make test/CMakeFiles/runAllTests.dir/TestMessage.cpp.i
+	cd /d C:\Users\acer\Downloads\UsersChat_1\UsersChat~1\UsersChat\cmake-build-debug && $(MAKE) -f test\CMakeFiles\runUsersChatTests.dir\build.make test/CMakeFiles/runUsersChatTests.dir/TestMessage.cpp.i
 .PHONY : TestMessage.cpp.i
 
 TestMessage.s: TestMessage.cpp.s
@@ -221,7 +221,7 @@ TestMessage.s: TestMessage.cpp.s
 
 # target to generate assembly for a file
 TestMessage.cpp.s:
-	cd /d C:\Users\acer\Downloads\UsersChat_1\UsersChat~1\UsersChat\cmake-build-debug && $(MAKE) -f test\CMakeFiles\runAllTests.dir\build.make test/CMakeFiles/runAllTests.dir/TestMessage.cpp.s
+	cd /d C:\Users\acer\Downloads\UsersChat_1\UsersChat~1\UsersChat\cmake-build-debug && $(MAKE) -f test\CMakeFiles\runUsersChatTests.dir\build.make test/CMakeFiles/runUsersChatTests.dir/TestMessage.cpp.s
 .PHONY : TestMessage.cpp.s
 
 TestNotifier.obj: TestNotifier.cpp.obj
@@ -230,7 +230,7 @@ TestNotifier.obj: TestNotifier.cpp.obj
 
 # target to build an object file
 TestNotifier.cpp.obj:
-	cd /d C:\Users\acer\Downloads\UsersChat_1\UsersChat~1\UsersChat\cmake-build-debug && $(MAKE) -f test\CMakeFiles\runAllTests.dir\build.make test/CMakeFiles/runAllTests.dir/TestNotifier.cpp.obj
+	cd /d C:\Users\acer\Downloads\UsersChat_1\UsersChat~1\UsersChat\cmake-build-debug && $(MAKE) -f test\CMakeFiles\runUsersChatTests.dir\build.make test/CMakeFiles/runUsersChatTests.dir/TestNotifier.cpp.obj
 .PHONY : TestNotifier.cpp.obj
 
 TestNotifier.i: TestNotifier.cpp.i
@@ -239,7 +239,7 @@ TestNotifier.i: TestNotifier.cpp.i
 
 # target to preprocess a source file
 TestNotifier.cpp.i:
-	cd /d C:\Users\acer\Downloads\UsersChat_1\UsersChat~1\UsersChat\cmake-build-debug && $(MAKE) -f test\CMakeFiles\runAllTests.dir\build.make test/CMakeFiles/runAllTests.dir/TestNotifier.cpp.i
+	cd /d C:\Users\acer\Downloads\UsersChat_1\UsersChat~1\UsersChat\cmake-build-debug && $(MAKE) -f test\CMakeFiles\runUsersChatTests.dir\build.make test/CMakeFiles/runUsersChatTests.dir/TestNotifier.cpp.i
 .PHONY : TestNotifier.cpp.i
 
 TestNotifier.s: TestNotifier.cpp.s
@@ -248,8 +248,35 @@ TestNotifier.s: TestNotifier.cpp.s
 
 # target to generate assembly for a file
 TestNotifier.cpp.s:
-	cd /d C:\Users\acer\Downloads\UsersChat_1\UsersChat~1\UsersChat\cmake-build-debug && $(MAKE) -f test\CMakeFiles\runAllTests.dir\build.make test/CMakeFiles/runAllTests.dir/TestNotifier.cpp.s
+	cd /d C:\Users\acer\Downloads\UsersChat_1\UsersChat~1\UsersChat\cmake-build-debug && $(MAKE) -f test\CMakeFiles\runUsersChatTests.dir\build.make test/CMakeFiles/runUsersChatTests.dir/TestNotifier.cpp.s
 .PHONY : TestNotifier.cpp.s
+
+TestUser.obj: TestUser.cpp.obj
+
+.PHONY : TestUser.obj
+
+# target to build an object file
+TestUser.cpp.obj:
+	cd /d C:\Users\acer\Downloads\UsersChat_1\UsersChat~1\UsersChat\cmake-build-debug && $(MAKE) -f test\CMakeFiles\runUsersChatTests.dir\build.make test/CMakeFiles/runUsersChatTests.dir/TestUser.cpp.obj
+.PHONY : TestUser.cpp.obj
+
+TestUser.i: TestUser.cpp.i
+
+.PHONY : TestUser.i
+
+# target to preprocess a source file
+TestUser.cpp.i:
+	cd /d C:\Users\acer\Downloads\UsersChat_1\UsersChat~1\UsersChat\cmake-build-debug && $(MAKE) -f test\CMakeFiles\runUsersChatTests.dir\build.make test/CMakeFiles/runUsersChatTests.dir/TestUser.cpp.i
+.PHONY : TestUser.cpp.i
+
+TestUser.s: TestUser.cpp.s
+
+.PHONY : TestUser.s
+
+# target to generate assembly for a file
+TestUser.cpp.s:
+	cd /d C:\Users\acer\Downloads\UsersChat_1\UsersChat~1\UsersChat\cmake-build-debug && $(MAKE) -f test\CMakeFiles\runUsersChatTests.dir\build.make test/CMakeFiles/runUsersChatTests.dir/TestUser.cpp.s
+.PHONY : TestUser.cpp.s
 
 runAllTests.obj: runAllTests.cpp.obj
 
@@ -257,7 +284,7 @@ runAllTests.obj: runAllTests.cpp.obj
 
 # target to build an object file
 runAllTests.cpp.obj:
-	cd /d C:\Users\acer\Downloads\UsersChat_1\UsersChat~1\UsersChat\cmake-build-debug && $(MAKE) -f test\CMakeFiles\runAllTests.dir\build.make test/CMakeFiles/runAllTests.dir/runAllTests.cpp.obj
+	cd /d C:\Users\acer\Downloads\UsersChat_1\UsersChat~1\UsersChat\cmake-build-debug && $(MAKE) -f test\CMakeFiles\runUsersChatTests.dir\build.make test/CMakeFiles/runUsersChatTests.dir/runAllTests.cpp.obj
 .PHONY : runAllTests.cpp.obj
 
 runAllTests.i: runAllTests.cpp.i
@@ -266,7 +293,7 @@ runAllTests.i: runAllTests.cpp.i
 
 # target to preprocess a source file
 runAllTests.cpp.i:
-	cd /d C:\Users\acer\Downloads\UsersChat_1\UsersChat~1\UsersChat\cmake-build-debug && $(MAKE) -f test\CMakeFiles\runAllTests.dir\build.make test/CMakeFiles/runAllTests.dir/runAllTests.cpp.i
+	cd /d C:\Users\acer\Downloads\UsersChat_1\UsersChat~1\UsersChat\cmake-build-debug && $(MAKE) -f test\CMakeFiles\runUsersChatTests.dir\build.make test/CMakeFiles/runUsersChatTests.dir/runAllTests.cpp.i
 .PHONY : runAllTests.cpp.i
 
 runAllTests.s: runAllTests.cpp.s
@@ -275,7 +302,7 @@ runAllTests.s: runAllTests.cpp.s
 
 # target to generate assembly for a file
 runAllTests.cpp.s:
-	cd /d C:\Users\acer\Downloads\UsersChat_1\UsersChat~1\UsersChat\cmake-build-debug && $(MAKE) -f test\CMakeFiles\runAllTests.dir\build.make test/CMakeFiles/runAllTests.dir/runAllTests.cpp.s
+	cd /d C:\Users\acer\Downloads\UsersChat_1\UsersChat~1\UsersChat\cmake-build-debug && $(MAKE) -f test\CMakeFiles\runUsersChatTests.dir\build.make test/CMakeFiles/runUsersChatTests.dir/runAllTests.cpp.s
 .PHONY : runAllTests.cpp.s
 
 # Help Target
@@ -284,13 +311,13 @@ help:
 	@echo ... all (the default if no target is provided)
 	@echo ... clean
 	@echo ... depend
-	@echo ... list_install_components
-	@echo ... runAllTests
+	@echo ... install/strip
+	@echo ... runUsersChatTests
 	@echo ... install/local
 	@echo ... install
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... install/strip
+	@echo ... list_install_components
 	@echo ... TestChat.obj
 	@echo ... TestChat.i
 	@echo ... TestChat.s
@@ -300,6 +327,9 @@ help:
 	@echo ... TestNotifier.obj
 	@echo ... TestNotifier.i
 	@echo ... TestNotifier.s
+	@echo ... TestUser.obj
+	@echo ... TestUser.i
+	@echo ... TestUser.s
 	@echo ... runAllTests.obj
 	@echo ... runAllTests.i
 	@echo ... runAllTests.s
