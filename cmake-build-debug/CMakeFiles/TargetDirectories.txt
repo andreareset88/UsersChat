@@ -1,0 +1,3 @@
+C:/Users/acer/Downloads/UsersChat_1/UsersChat~1/UsersChat/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+C:/Users/acer/Downloads/UsersChat_1/UsersChat~1/UsersChat/cmake-build-debug/CMakeFiles/UsersChat.dir
+C:/Users/acer/Downloads/UsersChat_1/UsersChat~1/UsersChat/cmake-build-debug/CMakeFiles/edit_cache.dir
