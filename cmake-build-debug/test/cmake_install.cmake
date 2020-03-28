@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/acer/Downloads/UsersChat_1/UsersChat~1/UsersChat/test
+# Install script for directory: C:/Users/acer/CLionProjects/UsersChat_1/UsersChat~1/UsersChat/test
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -34,6 +34,6 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/acer/Downloads/UsersChat_1/UsersChat~1/UsersChat/cmake-build-debug/test/lib/googletest-master/cmake_install.cmake")
+  include("C:/Users/acer/CLionProjects/UsersChat_1/UsersChat~1/UsersChat/cmake-build-debug/test/lib/googletest-master/cmake_install.cmake")
 endif()
 

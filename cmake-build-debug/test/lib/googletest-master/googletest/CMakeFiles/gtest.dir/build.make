@@ -42,10 +42,10 @@ RM = "C:\Program Files\JetBrains\CLion 2019.3.4\bin\cmake\win\bin\cmake.exe" -E 
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\acer\Downloads\UsersChat_1\UsersChat~1\UsersChat
+CMAKE_SOURCE_DIR = C:\Users\acer\CLionProjects\UsersChat_1\UsersChat~1\UsersChat
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\acer\Downloads\UsersChat_1\UsersChat~1\UsersChat\cmake-build-debug
+CMAKE_BINARY_DIR = C:\Users\acer\CLionProjects\UsersChat_1\UsersChat~1\UsersChat\cmake-build-debug
 
 # Include any dependencies generated for this target.
 include test/lib/googletest-master/googletest/CMakeFiles/gtest.dir/depend.make
@@ -59,16 +59,16 @@ include test/lib/googletest-master/googletest/CMakeFiles/gtest.dir/flags.make
 test/lib/googletest-master/googletest/CMakeFiles/gtest.dir/src/gtest-all.cc.obj: test/lib/googletest-master/googletest/CMakeFiles/gtest.dir/flags.make
 test/lib/googletest-master/googletest/CMakeFiles/gtest.dir/src/gtest-all.cc.obj: test/lib/googletest-master/googletest/CMakeFiles/gtest.dir/includes_CXX.rsp
 test/lib/googletest-master/googletest/CMakeFiles/gtest.dir/src/gtest-all.cc.obj: ../test/lib/googletest-master/googletest/src/gtest-all.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\acer\Downloads\UsersChat_1\UsersChat~1\UsersChat\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object test/lib/googletest-master/googletest/CMakeFiles/gtest.dir/src/gtest-all.cc.obj"
-	cd /d C:\Users\acer\Downloads\UsersChat_1\UsersChat~1\UsersChat\cmake-build-debug\test\lib\googletest-master\googletest && C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\gtest.dir\src\gtest-all.cc.obj -c C:\Users\acer\Downloads\UsersChat_1\UsersChat~1\UsersChat\test\lib\googletest-master\googletest\src\gtest-all.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\acer\CLionProjects\UsersChat_1\UsersChat~1\UsersChat\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object test/lib/googletest-master/googletest/CMakeFiles/gtest.dir/src/gtest-all.cc.obj"
+	cd /d C:\Users\acer\CLionProjects\UsersChat_1\UsersChat~1\UsersChat\cmake-build-debug\test\lib\googletest-master\googletest && C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\gtest.dir\src\gtest-all.cc.obj -c C:\Users\acer\CLionProjects\UsersChat_1\UsersChat~1\UsersChat\test\lib\googletest-master\googletest\src\gtest-all.cc
 
 test/lib/googletest-master/googletest/CMakeFiles/gtest.dir/src/gtest-all.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/gtest.dir/src/gtest-all.cc.i"
-	cd /d C:\Users\acer\Downloads\UsersChat_1\UsersChat~1\UsersChat\cmake-build-debug\test\lib\googletest-master\googletest && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\acer\Downloads\UsersChat_1\UsersChat~1\UsersChat\test\lib\googletest-master\googletest\src\gtest-all.cc > CMakeFiles\gtest.dir\src\gtest-all.cc.i
+	cd /d C:\Users\acer\CLionProjects\UsersChat_1\UsersChat~1\UsersChat\cmake-build-debug\test\lib\googletest-master\googletest && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\acer\CLionProjects\UsersChat_1\UsersChat~1\UsersChat\test\lib\googletest-master\googletest\src\gtest-all.cc > CMakeFiles\gtest.dir\src\gtest-all.cc.i
 
 test/lib/googletest-master/googletest/CMakeFiles/gtest.dir/src/gtest-all.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/gtest.dir/src/gtest-all.cc.s"
-	cd /d C:\Users\acer\Downloads\UsersChat_1\UsersChat~1\UsersChat\cmake-build-debug\test\lib\googletest-master\googletest && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\acer\Downloads\UsersChat_1\UsersChat~1\UsersChat\test\lib\googletest-master\googletest\src\gtest-all.cc -o CMakeFiles\gtest.dir\src\gtest-all.cc.s
+	cd /d C:\Users\acer\CLionProjects\UsersChat_1\UsersChat~1\UsersChat\cmake-build-debug\test\lib\googletest-master\googletest && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\acer\CLionProjects\UsersChat_1\UsersChat~1\UsersChat\test\lib\googletest-master\googletest\src\gtest-all.cc -o CMakeFiles\gtest.dir\src\gtest-all.cc.s
 
 # Object files for target gtest
 gtest_OBJECTS = \
@@ -80,9 +80,9 @@ gtest_EXTERNAL_OBJECTS =
 lib/libgtestd.a: test/lib/googletest-master/googletest/CMakeFiles/gtest.dir/src/gtest-all.cc.obj
 lib/libgtestd.a: test/lib/googletest-master/googletest/CMakeFiles/gtest.dir/build.make
 lib/libgtestd.a: test/lib/googletest-master/googletest/CMakeFiles/gtest.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\acer\Downloads\UsersChat_1\UsersChat~1\UsersChat\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library ..\..\..\..\lib\libgtestd.a"
-	cd /d C:\Users\acer\Downloads\UsersChat_1\UsersChat~1\UsersChat\cmake-build-debug\test\lib\googletest-master\googletest && $(CMAKE_COMMAND) -P CMakeFiles\gtest.dir\cmake_clean_target.cmake
-	cd /d C:\Users\acer\Downloads\UsersChat_1\UsersChat~1\UsersChat\cmake-build-debug\test\lib\googletest-master\googletest && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\gtest.dir\link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\acer\CLionProjects\UsersChat_1\UsersChat~1\UsersChat\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library ..\..\..\..\lib\libgtestd.a"
+	cd /d C:\Users\acer\CLionProjects\UsersChat_1\UsersChat~1\UsersChat\cmake-build-debug\test\lib\googletest-master\googletest && $(CMAKE_COMMAND) -P CMakeFiles\gtest.dir\cmake_clean_target.cmake
+	cd /d C:\Users\acer\CLionProjects\UsersChat_1\UsersChat~1\UsersChat\cmake-build-debug\test\lib\googletest-master\googletest && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\gtest.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 test/lib/googletest-master/googletest/CMakeFiles/gtest.dir/build: lib/libgtestd.a
@@ -90,10 +90,10 @@ test/lib/googletest-master/googletest/CMakeFiles/gtest.dir/build: lib/libgtestd.
 .PHONY : test/lib/googletest-master/googletest/CMakeFiles/gtest.dir/build
 
 test/lib/googletest-master/googletest/CMakeFiles/gtest.dir/clean:
-	cd /d C:\Users\acer\Downloads\UsersChat_1\UsersChat~1\UsersChat\cmake-build-debug\test\lib\googletest-master\googletest && $(CMAKE_COMMAND) -P CMakeFiles\gtest.dir\cmake_clean.cmake
+	cd /d C:\Users\acer\CLionProjects\UsersChat_1\UsersChat~1\UsersChat\cmake-build-debug\test\lib\googletest-master\googletest && $(CMAKE_COMMAND) -P CMakeFiles\gtest.dir\cmake_clean.cmake
 .PHONY : test/lib/googletest-master/googletest/CMakeFiles/gtest.dir/clean
 
 test/lib/googletest-master/googletest/CMakeFiles/gtest.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\acer\Downloads\UsersChat_1\UsersChat~1\UsersChat C:\Users\acer\Downloads\UsersChat_1\UsersChat~1\UsersChat\test\lib\googletest-master\googletest C:\Users\acer\Downloads\UsersChat_1\UsersChat~1\UsersChat\cmake-build-debug C:\Users\acer\Downloads\UsersChat_1\UsersChat~1\UsersChat\cmake-build-debug\test\lib\googletest-master\googletest C:\Users\acer\Downloads\UsersChat_1\UsersChat~1\UsersChat\cmake-build-debug\test\lib\googletest-master\googletest\CMakeFiles\gtest.dir\DependInfo.cmake --color=$(COLOR)
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\acer\CLionProjects\UsersChat_1\UsersChat~1\UsersChat C:\Users\acer\CLionProjects\UsersChat_1\UsersChat~1\UsersChat\test\lib\googletest-master\googletest C:\Users\acer\CLionProjects\UsersChat_1\UsersChat~1\UsersChat\cmake-build-debug C:\Users\acer\CLionProjects\UsersChat_1\UsersChat~1\UsersChat\cmake-build-debug\test\lib\googletest-master\googletest C:\Users\acer\CLionProjects\UsersChat_1\UsersChat~1\UsersChat\cmake-build-debug\test\lib\googletest-master\googletest\CMakeFiles\gtest.dir\DependInfo.cmake --color=$(COLOR)
 .PHONY : test/lib/googletest-master/googletest/CMakeFiles/gtest.dir/depend
 
