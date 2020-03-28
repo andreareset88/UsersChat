@@ -19,3 +19,6 @@ TEST(Chat,testMethods){
     ASSERT_THROW(chat.read(2),out_of_range);
     ASSERT_THROW(chat.read(0),out_of_range);
 }
+
+/*Problemi coi test: adesso clion riconosce l'include di gtest, ma quando provo a eseguire i test
+ * vengono riportati errori che non riesco a risolvere...*/

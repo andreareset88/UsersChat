@@ -10,3 +10,6 @@ TEST(Message,testMessage){
     msg.setIsRead(true);
     ASSERT_EQ(msg.getRead(),true);
 }
+
+/*Problemi coi test: adesso clion riconosce l'include di gtest, ma quando provo a eseguire i test
+ * vengono riportati errori che non riesco a risolvere...*/
