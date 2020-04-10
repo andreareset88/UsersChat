@@ -18,9 +18,11 @@ public:
     ~Chat() override{}
 
     void addMessage(const Message& newMessage){
-        if((myProfile == newMessage.getReceiver()||myProfile == newMessage.getSender())&&(otherProfile == newMessage.getSender()||otherProfile == newMessage.getReceiver()))
+        if((myProfile == newMessage.getReceiver()||myProfile == newMessage.getSender())&&(otherProfile == newMessage.getSender()||otherProfile == newMessage.getReceiver())) {
             messages.push_back(newMessage);
-        this->notify();
+            this->notify();
+        }
+        else throw invalid_argument("Error: invalid argument!");
     }
 
     const Message& last() const {
