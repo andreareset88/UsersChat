@@ -60,15 +60,15 @@ test/lib/googletest-master/googlemock/CMakeFiles/gmock.dir/src/gmock-all.cc.obj:
 test/lib/googletest-master/googlemock/CMakeFiles/gmock.dir/src/gmock-all.cc.obj: test/lib/googletest-master/googlemock/CMakeFiles/gmock.dir/includes_CXX.rsp
 test/lib/googletest-master/googlemock/CMakeFiles/gmock.dir/src/gmock-all.cc.obj: ../test/lib/googletest-master/googlemock/src/gmock-all.cc
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\acer\CLionProjects\UsersChat_1\UsersChat~1\UsersChat\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object test/lib/googletest-master/googlemock/CMakeFiles/gmock.dir/src/gmock-all.cc.obj"
-	cd /d C:\Users\acer\CLionProjects\UsersChat_1\UsersChat~1\UsersChat\cmake-build-debug\test\lib\googletest-master\googlemock && C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\gmock.dir\src\gmock-all.cc.obj -c C:\Users\acer\CLionProjects\UsersChat_1\UsersChat~1\UsersChat\test\lib\googletest-master\googlemock\src\gmock-all.cc
+	cd /d C:\Users\acer\CLionProjects\UsersChat_1\UsersChat~1\UsersChat\cmake-build-debug\test\lib\googletest-master\googlemock && C:\msys64\mingw64\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\gmock.dir\src\gmock-all.cc.obj -c C:\Users\acer\CLionProjects\UsersChat_1\UsersChat~1\UsersChat\test\lib\googletest-master\googlemock\src\gmock-all.cc
 
 test/lib/googletest-master/googlemock/CMakeFiles/gmock.dir/src/gmock-all.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/gmock.dir/src/gmock-all.cc.i"
-	cd /d C:\Users\acer\CLionProjects\UsersChat_1\UsersChat~1\UsersChat\cmake-build-debug\test\lib\googletest-master\googlemock && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\acer\CLionProjects\UsersChat_1\UsersChat~1\UsersChat\test\lib\googletest-master\googlemock\src\gmock-all.cc > CMakeFiles\gmock.dir\src\gmock-all.cc.i
+	cd /d C:\Users\acer\CLionProjects\UsersChat_1\UsersChat~1\UsersChat\cmake-build-debug\test\lib\googletest-master\googlemock && C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\acer\CLionProjects\UsersChat_1\UsersChat~1\UsersChat\test\lib\googletest-master\googlemock\src\gmock-all.cc > CMakeFiles\gmock.dir\src\gmock-all.cc.i
 
 test/lib/googletest-master/googlemock/CMakeFiles/gmock.dir/src/gmock-all.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/gmock.dir/src/gmock-all.cc.s"
-	cd /d C:\Users\acer\CLionProjects\UsersChat_1\UsersChat~1\UsersChat\cmake-build-debug\test\lib\googletest-master\googlemock && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\acer\CLionProjects\UsersChat_1\UsersChat~1\UsersChat\test\lib\googletest-master\googlemock\src\gmock-all.cc -o CMakeFiles\gmock.dir\src\gmock-all.cc.s
+	cd /d C:\Users\acer\CLionProjects\UsersChat_1\UsersChat~1\UsersChat\cmake-build-debug\test\lib\googletest-master\googlemock && C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\acer\CLionProjects\UsersChat_1\UsersChat~1\UsersChat\test\lib\googletest-master\googlemock\src\gmock-all.cc -o CMakeFiles\gmock.dir\src\gmock-all.cc.s
 
 # Object files for target gmock
 gmock_OBJECTS = \

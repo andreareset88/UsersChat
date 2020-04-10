@@ -59,15 +59,15 @@ include CMakeFiles/UsersChat.dir/flags.make
 CMakeFiles/UsersChat.dir/main.cpp.obj: CMakeFiles/UsersChat.dir/flags.make
 CMakeFiles/UsersChat.dir/main.cpp.obj: ../main.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\acer\CLionProjects\UsersChat_1\UsersChat~1\UsersChat\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/UsersChat.dir/main.cpp.obj"
-	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\UsersChat.dir\main.cpp.obj -c C:\Users\acer\CLionProjects\UsersChat_1\UsersChat~1\UsersChat\main.cpp
+	C:\msys64\mingw64\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\UsersChat.dir\main.cpp.obj -c C:\Users\acer\CLionProjects\UsersChat_1\UsersChat~1\UsersChat\main.cpp
 
 CMakeFiles/UsersChat.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/UsersChat.dir/main.cpp.i"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\acer\CLionProjects\UsersChat_1\UsersChat~1\UsersChat\main.cpp > CMakeFiles\UsersChat.dir\main.cpp.i
+	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\acer\CLionProjects\UsersChat_1\UsersChat~1\UsersChat\main.cpp > CMakeFiles\UsersChat.dir\main.cpp.i
 
 CMakeFiles/UsersChat.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/UsersChat.dir/main.cpp.s"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\acer\CLionProjects\UsersChat_1\UsersChat~1\UsersChat\main.cpp -o CMakeFiles\UsersChat.dir\main.cpp.s
+	C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\acer\CLionProjects\UsersChat_1\UsersChat~1\UsersChat\main.cpp -o CMakeFiles\UsersChat.dir\main.cpp.s
 
 # Object files for target UsersChat
 UsersChat_OBJECTS = \

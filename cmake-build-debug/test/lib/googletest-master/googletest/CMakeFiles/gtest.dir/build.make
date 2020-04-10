@@ -60,15 +60,15 @@ test/lib/googletest-master/googletest/CMakeFiles/gtest.dir/src/gtest-all.cc.obj:
 test/lib/googletest-master/googletest/CMakeFiles/gtest.dir/src/gtest-all.cc.obj: test/lib/googletest-master/googletest/CMakeFiles/gtest.dir/includes_CXX.rsp
 test/lib/googletest-master/googletest/CMakeFiles/gtest.dir/src/gtest-all.cc.obj: ../test/lib/googletest-master/googletest/src/gtest-all.cc
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\acer\CLionProjects\UsersChat_1\UsersChat~1\UsersChat\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object test/lib/googletest-master/googletest/CMakeFiles/gtest.dir/src/gtest-all.cc.obj"
-	cd /d C:\Users\acer\CLionProjects\UsersChat_1\UsersChat~1\UsersChat\cmake-build-debug\test\lib\googletest-master\googletest && C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\gtest.dir\src\gtest-all.cc.obj -c C:\Users\acer\CLionProjects\UsersChat_1\UsersChat~1\UsersChat\test\lib\googletest-master\googletest\src\gtest-all.cc
+	cd /d C:\Users\acer\CLionProjects\UsersChat_1\UsersChat~1\UsersChat\cmake-build-debug\test\lib\googletest-master\googletest && C:\msys64\mingw64\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\gtest.dir\src\gtest-all.cc.obj -c C:\Users\acer\CLionProjects\UsersChat_1\UsersChat~1\UsersChat\test\lib\googletest-master\googletest\src\gtest-all.cc
 
 test/lib/googletest-master/googletest/CMakeFiles/gtest.dir/src/gtest-all.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/gtest.dir/src/gtest-all.cc.i"
-	cd /d C:\Users\acer\CLionProjects\UsersChat_1\UsersChat~1\UsersChat\cmake-build-debug\test\lib\googletest-master\googletest && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\acer\CLionProjects\UsersChat_1\UsersChat~1\UsersChat\test\lib\googletest-master\googletest\src\gtest-all.cc > CMakeFiles\gtest.dir\src\gtest-all.cc.i
+	cd /d C:\Users\acer\CLionProjects\UsersChat_1\UsersChat~1\UsersChat\cmake-build-debug\test\lib\googletest-master\googletest && C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\acer\CLionProjects\UsersChat_1\UsersChat~1\UsersChat\test\lib\googletest-master\googletest\src\gtest-all.cc > CMakeFiles\gtest.dir\src\gtest-all.cc.i
 
 test/lib/googletest-master/googletest/CMakeFiles/gtest.dir/src/gtest-all.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/gtest.dir/src/gtest-all.cc.s"
-	cd /d C:\Users\acer\CLionProjects\UsersChat_1\UsersChat~1\UsersChat\cmake-build-debug\test\lib\googletest-master\googletest && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\acer\CLionProjects\UsersChat_1\UsersChat~1\UsersChat\test\lib\googletest-master\googletest\src\gtest-all.cc -o CMakeFiles\gtest.dir\src\gtest-all.cc.s
+	cd /d C:\Users\acer\CLionProjects\UsersChat_1\UsersChat~1\UsersChat\cmake-build-debug\test\lib\googletest-master\googletest && C:\msys64\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\acer\CLionProjects\UsersChat_1\UsersChat~1\UsersChat\test\lib\googletest-master\googletest\src\gtest-all.cc -o CMakeFiles\gtest.dir\src\gtest-all.cc.s
 
 # Object files for target gtest
 gtest_OBJECTS = \
