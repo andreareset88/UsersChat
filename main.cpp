@@ -24,5 +24,5 @@ int main() {
     catch (out_of_range& e){
         cerr<<"Error: "<<e.what()<<endl;
     }
-
+    notifier.detach();
 }
