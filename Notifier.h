@@ -25,7 +25,7 @@ public:
 
     void update() override {
         if(online)
-            this->draw(subject->last());
+            this->draw(subject->last());//Stampa a schermo ora e data dell'ultimo messaggio
         cout<<"There are "<<subject->getNumUnreadMessages()<<" unread message/s"<<endl;
     }
 
@@ -36,7 +36,7 @@ public:
         cout<<"NEW MESSAGE!"<<endl;
         strftime(buffer,80,"Sent at %I:%M%p of the day %d/%m/%Y",localTime);
         cout<<buffer<<endl;
-    }
+    }//Per questa funzione ho preso spunto da https://www.mattepuffo.com/blog/articolo/658-data-ora-corrente-cpp.html
 
     bool isOnline() const {
         return online;

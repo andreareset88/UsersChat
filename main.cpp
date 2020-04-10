@@ -21,8 +21,7 @@ int main() {
         chat.read(0);
         chat.read(1);
         chat.read(2);
-        chat.read(3);
-        chat.read(4);// Will not work...
+        chat.read(3);// Will not work...
     }
 
     catch (out_of_range& e){
