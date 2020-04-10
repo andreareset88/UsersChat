@@ -17,6 +17,6 @@ TEST(Chat,testMethods){
     chat.addMessage(message1);
     ASSERT_EQ(chat.last(),message1);
     ASSERT_THROW(chat.read(2),out_of_range);
-    ASSERT_THROW(chat.read(0),out_of_range);
+    ASSERT_THROW(chat.read(0),out_of_range);// The test will fail...
 }
 
