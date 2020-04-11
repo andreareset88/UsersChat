@@ -6,8 +6,8 @@ User charles("Charles");
 
 TEST(Chat,testNames){
     Chat chat(andrea,charles);
-    ASSERT_EQ(chat.getMyProfile(),"Andrea");
-    ASSERT_EQ(chat.getOtherProfile(),"Charles");
+    ASSERT_EQ(chat.getMyProfile(),"Andrea") <<"I profili sono diversi";
+    ASSERT_EQ(chat.getOtherProfile(),"Charles") <<"I profili sono diversi";
 }
 
 TEST(Chat,testMethods){
@@ -18,7 +18,7 @@ TEST(Chat,testMethods){
     chat.addMessage(message1);
     ASSERT_EQ(chat.last(),message1);
     ASSERT_THROW(chat.read(2),out_of_range);
-    EXPECT_THROW(chat.read(0),out_of_range);// The test will fail...
-    ASSERT_THROW(chat.addMessage(message2),invalid_argument);
+    EXPECT_THROW(chat.read(0),out_of_range) << "Non viene lanciata nessuna eccezione";// The test will fail...
+    EXPECT_THROW(chat.addMessage(message2),invalid_argument) <<"Non viene lanciata nessuna eccezione";
 }
 
