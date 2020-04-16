@@ -7,6 +7,5 @@ CMakeFiles/core.dir/main.cpp.obj: ../Notifier.h
 CMakeFiles/core.dir/main.cpp.obj: ../Observer.h
 CMakeFiles/core.dir/main.cpp.obj: ../Subject.h
 CMakeFiles/core.dir/main.cpp.obj: ../User.h
-CMakeFiles/core.dir/main.cpp.obj: ../header.h
 CMakeFiles/core.dir/main.cpp.obj: ../main.cpp
 

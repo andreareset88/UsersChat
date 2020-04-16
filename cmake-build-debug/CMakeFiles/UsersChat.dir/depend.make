@@ -7,6 +7,5 @@ CMakeFiles/UsersChat.dir/main.cpp.obj: ../Notifier.h
 CMakeFiles/UsersChat.dir/main.cpp.obj: ../Observer.h
 CMakeFiles/UsersChat.dir/main.cpp.obj: ../Subject.h
 CMakeFiles/UsersChat.dir/main.cpp.obj: ../User.h
-CMakeFiles/UsersChat.dir/main.cpp.obj: ../header.h
 CMakeFiles/UsersChat.dir/main.cpp.obj: ../main.cpp
 

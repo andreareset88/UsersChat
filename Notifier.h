@@ -5,9 +5,10 @@
 #ifndef USERSCHAT_NOTIFIER_H
 #define USERSCHAT_NOTIFIER_H
 
-#include "header.h"
+
 #include "Observer.h"
 #include "Chat.h"
+using namespace std;
 
 class Notifier : public Observer {
 public:

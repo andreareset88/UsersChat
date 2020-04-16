@@ -6,8 +6,8 @@
 #define USERSCHAT_MESSAGE_H
 
 #include <chrono>
-#include "header.h"
-
+#include <string>
+using namespace std;
 class Message {
 public:
     Message(const string& se,const string& re,const string& te,bool read = false):sender(se),receiver(re),text(te),isRead(read){

@@ -5,10 +5,13 @@
 #ifndef USERSCHAT_CHAT_H
 #define USERSCHAT_CHAT_H
 
-#include "header.h"
+#include <iostream>
+#include <vector>
+#include <list>
 #include "User.h"
 #include "Message.h"
 #include "Subject.h"
+
 
 class Chat : public Subject {
 public:

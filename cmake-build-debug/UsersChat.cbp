@@ -432,9 +432,6 @@
 		<Unit filename="C:/Users/acer/CLionProjects/UsersChat_1/UsersChat~1/UsersChat/User.h">
 			<Option target="core"/>
 		</Unit>
-		<Unit filename="C:/Users/acer/CLionProjects/UsersChat_1/UsersChat~1/UsersChat/header.h">
-			<Option target="core"/>
-		</Unit>
 		<Unit filename="C:/Users/acer/CLionProjects/UsersChat_1/UsersChat~1/UsersChat/main.cpp">
 			<Option target="UsersChat"/>
 			<Option target="core"/>

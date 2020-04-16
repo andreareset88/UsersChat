@@ -5,8 +5,8 @@
 #ifndef USERSCHAT_USER_H
 #define USERSCHAT_USER_H
 
-#include "header.h"
-
+#include <string>
+using namespace std;
 
 class User {
 public:
